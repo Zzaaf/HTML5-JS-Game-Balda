@@ -1,0 +1,515 @@
+html {
+    background: white;
+    height: 1000px;
+    margin: 0 0 0 0;
+}
+body {
+    margin: 0 auto;
+    width: 1285px;
+    height: 1000px;
+    background-image: url("img/back.jpg");
+}
+section.game{
+    position: relative;
+    top: 15px;
+    margin: 0 auto;
+    width: 1285px;
+    height: 700px;
+}
+div.main {
+    position: relative;
+    margin: 0 auto;
+    height: 520px;
+    width: 520px;
+    background-color: #212121;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+div.main div.cell_1 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 0;
+    top: 0;
+    background-color: #414141;
+}
+div.main div.cell_1:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 100px;
+    top: 0;
+    background-color: #414141;
+}
+div.main div.cell_2:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_3 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 200px;
+    top: 0;
+    background-color: #414141;
+}
+div.main div.cell_3:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_4 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 300px;
+    top: 0;
+    background-color: #414141;
+}
+div.main div.cell_4:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_5 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 400px;
+    top: 0;
+    background-color: #414141;
+}
+div.main div.cell_5:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_6 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 0;
+    top: 100px;
+    background-color: #414141;
+}
+div.main div.cell_6:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_7 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 100px;
+    top: 100px;
+    background-color: #414141;
+}
+div.main div.cell_7:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_8 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 200px;
+    top: 100px;
+    background-color: #414141;
+}
+div.main div.cell_8:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_9 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 300px;
+    top: 100px;
+    background-color: #414141;
+}
+div.main div.cell_9:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_10 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 400px;
+    top: 100px;
+    background-color: #414141;
+}
+div.main div.cell_10:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_11 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 0;
+    top: 200px;
+    background-color: #414141;
+}
+div.main div.cell_11:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_12 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 100px;
+    top: 200px;
+    background-color: #414141;
+}
+div.main div.cell_12:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_13 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 200px;
+    top: 200px;
+    background-color: #414141;
+}
+div.main div.cell_13:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_14 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 300px;
+    top: 200px;
+    background-color: #414141;
+}
+div.main div.cell_14:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_15 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 400px;
+    top: 200px;
+    background-color: #414141;
+}
+div.main div.cell_15:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_16 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 0;
+    top: 300px;
+    background-color: #414141;
+}
+div.main div.cell_16:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_17 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 100px;
+    top: 300px;
+    background-color: #414141;
+}
+div.main div.cell_17:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_18 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 200px;
+    top: 300px;
+    background-color: #414141;
+}
+div.main div.cell_18:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_19 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 300px;
+    top: 300px;
+    background-color: #414141;
+}
+div.main div.cell_19:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_20 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 400px;
+    top: 300px;
+    background-color: #414141;
+}
+div.main div.cell_20:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_21 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 0;
+    top: 400px;
+    background-color: #414141;
+}
+div.main div.cell_21:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_22 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 100px;
+    top: 400px;
+    background-color: #414141;
+}
+div.main div.cell_22:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_23 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 200px;
+    top: 400px;
+    background-color: #414141;
+}
+div.main div.cell_23:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_24 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 300px;
+    top: 400px;
+    background-color: #414141;
+}
+div.main div.cell_24:hover {
+    background-color: #4b4b4b;
+}
+div.main div.cell_25 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 10px;
+    border: solid 1px black;
+    left: 400px;
+    top: 400px;
+    background-color: #414141;
+}
+div.main div.cell_25:hover {
+    background-color: #4b4b4b;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+ul {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    width: 392px;
+}
+li {
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+img {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 10%;
+    left: 10%;
+    max-width: 80px;
+    max-height: 80px;
+}
+div.abc {
+    position: relative;
+    margin: 0 auto;
+    width: 520px;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+aside {
+    position: relative;
+    left: 0;
+    bottom: 600px;
+    width: 1285px;
+}
+
+aside div.player_1 {
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 400px;
+}
+
+aside div.player_2 {
+    position: relative;
+    float: right;
+    width: 150px;
+    height: 400px;
+}
+
+aside div.player_1 textarea {
+    position: relative;
+    margin-left: 75px;
+    margin-top: 15px;
+    float: left;
+    height: 300px;
+    width: 225px;
+    resize: none;
+}
+aside div.player_2 textarea {
+    position: relative;
+    margin-right: 75px;
+    margin-top: 15px;
+    float: right;
+    height: 300px;
+    width: 225px;
+    resize: none;
+}
+aside div.player_1 input.player_1 {
+    position: relative;
+    float: left;
+    margin-left: 75px;
+}
+aside div.player_2 input.player_2 {
+    position: relative;
+    float: right;
+    margin-right: 75px;
+}
+button.player_1 {
+    float: left;
+    width: 115px;
+    margin-left: 75px;
+}
+button.player_2 {
+    float: right;
+    width: 115px;
+    margin-right: 75px;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+h1.player_1 {
+    position: relative;
+    color: azure;
+    font-size: 22pt;
+    float: left;
+    left: 125px;
+}
+h1.player_2 {
+    position: relative;
+    color: azure;
+    font-size: 22pt;
+    float: right;
+    right: 125px;
+}
+div.rules {
+    position: relative;
+    width: 1285px;
+    height: 200px;
+    top: 135px;
+    display: block;
+    margin: 0 0 0 0;
+    opacity: 0.5;
+    background: linear-gradient(black, #9a9a9a);
+}
+div.rules h2 {
+     text-align: center;
+     color: #ffffff;
+ }
+div.rules p {
+    text-align: center;
+    color: #ffffff;
+}
+p.left, p.right {
+    color: #ffffff;
+}
+p.left {
+    position: relative;
+    bottom: 65px;
+    font-size: 18pt;
+    float: left;
+    left: 220px;
+}
+p.right {
+    position: relative;
+    bottom: 65px;
+    font-size: 18pt;
+    float: right;
+    right: 220px;
+}
